@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  tensorflowbuilder:
+    build:
+      context: .
+      args:
+          TENSORFLOW_VERSION: v2.9.1
+    volumes:
+      - ./tensorflow:/tensorflow
