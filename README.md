@@ -10,7 +10,7 @@ Use this command to build the docker container:
 
 `docker build -t tensorflowbuilder .`
 
-By default Tensorflow v2.9.1 will be built for python 3.10, but this can be changed by providing docker build arguments `--build-arg PYTHON_VERSION=3.9` and `--build-arg TENSORFLOW_VERSION=v2.9.1` respectively (the tensorflow argument most correspond to a tag from the tensorflow repository).  
+By default Tensorflow v2.15.0 will be built for python 3.11.7, but this can be changed by providing docker build arguments `--build-arg PYTHON_VERSION=3.11` and `--build-arg TENSORFLOW_VERSION=v2.15.0` respectively (the tensorflow argument most correspond to a tag from the tensorflow repository).  
 
 Use this command to start the tensorflow build:
 
