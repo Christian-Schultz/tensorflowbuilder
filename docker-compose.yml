@@ -6,6 +6,5 @@ services:
       context: .
       args:
           TENSORFLOW_VERSION: v2.15.0
-          PYTHON_VERSION: 3.11.7
     volumes:
       - ./tensorflow:/tensorflow
